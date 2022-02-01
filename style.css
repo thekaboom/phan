@@ -13,67 +13,6 @@ body {
   box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
 }
 
-.logo {
-  float: right;
-  margin-right: 12px;
-  margin-top: 12px;
-  font-family: "Nunito Sans", sans-serif;
-  color: #3DBB3D;
-  font-weight: 900;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-}
-
-.CTA {
-  width: 40px;
-  height: 40px;
-  top: 10px;
-  right: 0px;
-  bottom: 0;
-  margin-bottom: 90px;
-  position: absolute;
-  z-index: 1;
-  background: #0ABAB5;
-  font-size: 1em;
-  transform: rotate(0deg);
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-.CTA h1 {
-  color: #FFFFFF;
-  margin-top: 4px;
-  margin-left: 8px;
-}
-.CTA:hover {
-  background: #cfe4f7;
-  transform: scale(1.1) rotate(90deg);
-  content: "Reply!";
-}
-
-.CTA2 {
-  width: 40px;
-  height: 40px;
-  right: 0px;
-  bottom: 0;
-  margin-bottom: 44px;
-  position: absolute;
-  z-index: 1;
-  background: #0ABAB5;
-  font-size: 1em;
-  transform: rotate(0deg);
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-.CTA2 h1 {
-  color: #FFFFFF;
-  margin-top: 4px;
-  margin-left: 6px;
-}
-.CTA2:hover {
-  background: #cfe4f7;
-  transform: scale(1.1);
-}
-
 .leftbox {
   width: 100%;
   height: 9%;
@@ -81,11 +20,20 @@ body {
   box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
 }
 
-.btmbox {
-  width: 30%;
-  height: 10%;
-  background: #0ABAB5;
-  box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
+.btmbox a {
+  position: relative;
+  top: 490px;
+  left: 10%;
+  color: #0ABAB5;
+  padding: 10px;
+  font-size: 1.1em;
+  transition: all 0.3s ease-in-out;
+}
+
+.btmbox a:hover {
+  color: #cfe4f7;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 nav a {
@@ -98,19 +46,11 @@ nav a {
   font-size: 1.1em;
   transition: all 0.3s ease-in-out;
 }
+
 nav a:hover {
   color: #cfe4f7;
   transform: scale(1.2);
   cursor: pointer;
-}
-
-.btmbox {
-  position: relative;
-  top: 490px;
-  left: 0%;
-  color: #FFFFFF;
-  font-size: 1.1em;
-  transition: all 0.3s ease-in-out;
 }
 
 .active {
@@ -120,10 +60,9 @@ nav a:hover {
 .rightbox {
   float: left;
   position: relative;
-  top: -75px;
+  top: -45px;
   left: 10%;
   width: 100%;
-  height: 100%;
 }
 
 .profile, .payment, .subscription, .privacy, .settings {
