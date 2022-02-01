@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: ;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: ;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: ;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: ;
+}
+
+input::placeholder, textarea::placeholder {
+  color: ;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: ;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: ;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: ;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: white;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color:white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: white;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: ;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: ;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: ;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: ;
+  color: ;
+}
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+#form {
+  position: relative;
+  width: 300px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 300px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #1479d8;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #1479d8;
+  color: white;
+}
+
+textarea {
+  width: 300px;
+  max-width: 300px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #1479d8;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #1479d8;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #1479d8;
+  color: white;
+}
+
+#submit {
+  width: 300px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
